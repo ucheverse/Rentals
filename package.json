@@ -1,0 +1,35 @@
+{
+  "name": "rental-app",
+  "version": "1.0.0",
+  "description": "this app or website creates a good atmosphere for renting material for different ceremonies or events",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node ./startups/server.js",
+    "dev": "nodemon ./startups/server.js",
+    "start:prod": "NODE_ENV=production nodemon /startups/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Rentals"
+  },
+  "author": "Theophilus Uche",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.10.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "pug": "^3.0.0",
+    "sharp": "^0.25.4",
+    "slugify": "^1.4.5",
+    "validator": "^13.1.1"
+  }
+}
